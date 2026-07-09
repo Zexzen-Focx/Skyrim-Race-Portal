@@ -427,8 +427,8 @@ body {
   pointer-events: none;
 }
 
-.details-gallery:not(.hidden) + .modal-body {
-  max-height: 45vh;
+.details-gallery {
+  flex-shrink: 0;
 }
 
 .mod-card__body {
@@ -514,10 +514,11 @@ body {
   width: min(640px, 92vw);
   max-width: min(640px, 92vw);
   max-height: calc(100vh - 2rem);
+  max-height: calc(100dvh - 2rem);
   margin: auto;
   background: transparent;
   color: var(--text-primary);
-  overflow: visible;
+  overflow: hidden;
 }
 
 .modal:not([open]) {
@@ -540,11 +541,16 @@ body {
 
 .modal-frame {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 2rem);
+  max-height: calc(100dvh - 2rem);
   background: var(--bg-card);
   border: 2px solid var(--border-gold);
   border-radius: var(--radius);
   padding: 2rem;
   box-shadow: 0 16px 48px var(--shadow);
+  overflow: hidden;
 }
 
 .modal-frame::before {
@@ -581,6 +587,7 @@ body {
 }
 
 .modal-title {
+  flex-shrink: 0;
   font-family: var(--font-display);
   font-size: 1.35rem;
   font-weight: 600;
@@ -591,9 +598,11 @@ body {
 }
 
 .modal-body {
-  max-height: 60vh;
+  flex: 1 1 auto;
+  min-height: 0;
   overflow-y: auto;
   padding-right: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 
 .modal-body::-webkit-scrollbar {
@@ -712,8 +721,9 @@ body {
 .download-list {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
   gap: 1rem;
-  max-height: 60vh;
   overflow-y: auto;
   padding-right: 0.25rem;
 }
@@ -765,6 +775,7 @@ body {
 }
 
 .modal-downloads--details {
+  flex-shrink: 0;
   margin-top: 1.25rem;
   padding-top: 1.25rem;
   border-top: 1px solid rgba(139, 115, 85, 0.35);
@@ -785,6 +796,12 @@ body {
 }
 
 /* Responsive */
+
+@media (max-height: 820px) {
+  .gallery--modal {
+    max-height: 28dvh;
+  }
+}
 
 @media (max-width: 480px) {
   .mod-card__actions {
