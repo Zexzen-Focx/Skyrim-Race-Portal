@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zexzen's Mod Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="backdrop"></div>
+
+  <header class="site-header">
+    <div class="header-ornament"></div>
+    <h1 class="site-title">Zexzen's Mod Portal</h1>
+    <p class="site-tagline">Just another modder adding anime races, custom voices, and weapons to Skyrim. Also can do some scripted mods.</p>
+    <div class="header-ornament"></div>
+  </header>
+
+  <main class="storefront">
+    <div id="loading" class="loading" aria-live="polite">
+      <span class="loading-rune">ᛞ</span>
+      <p>Loading mods…</p>
+    </div>
+    <div id="error" class="error-banner hidden" role="alert"></div>
+    <div id="search-wrap" class="mod-search hidden">
+      <label for="mod-search" class="mod-search__label">Search mods</label>
+      <input
+        type="search"
+        id="mod-search"
+        class="mod-search__input"
+        placeholder="Search by name or description…"
+        autocomplete="off"
+      >
+    </div>
+    <p id="search-empty" class="search-empty hidden">No mods match your search.</p>
+    <div id="mod-grid" class="mod-grid" aria-label="Mod catalog"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Images and mods belong to their respective authors.</p>
+  </footer>
+
+  <!-- Description modal -->
+  <dialog id="details-modal" class="modal">
+    <div class="modal-frame">
+      <button type="button" class="modal-close" data-close="details-modal" aria-label="Close details">&times;</button>
+      <h2 id="details-title" class="modal-title"></h2>
+      <div id="details-gallery" class="details-gallery hidden"></div>
+      <div id="details-body" class="modal-body markdown-body"></div>
+      <div id="details-downloads" class="modal-downloads modal-downloads--details hidden"></div>
+    </div>
+  </dialog>
+
+  <!-- Downloads modal -->
+  <dialog id="downloads-modal" class="modal modal--downloads">
+    <div class="modal-frame">
+      <button type="button" class="modal-close" data-close="downloads-modal" aria-label="Close downloads">&times;</button>
+      <h2 id="downloads-title" class="modal-title">Downloads</h2>
+      <div id="downloads-list" class="download-list"></div>
+    </div>
+  </dialog>
+
+  <!-- Passcode modal -->
+  <dialog id="passcode-modal" class="modal modal--compact">
+    <div class="modal-frame">
+      <button type="button" class="modal-close" data-close="passcode-modal" aria-label="Close passcode prompt">&times;</button>
+      <h2 class="modal-title">Enter Passcode</h2>
+      <p id="passcode-mod-name" class="passcode-mod-name"></p>
+      <form id="passcode-form" class="passcode-form">
+        <input
+          type="password"
+          id="passcode-input"
+          class="passcode-input"
+          placeholder="Passcode"
+          autocomplete="off"
+          required
+        >
+        <p id="passcode-error" class="passcode-error hidden" role="alert">Incorrect passcode.</p>
+        <div class="modal-actions">
+          <button type="button" class="btn btn--ghost" data-close="passcode-modal">Cancel</button>
+          <button type="submit" class="btn btn--primary">Unlock</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="js/secrets.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

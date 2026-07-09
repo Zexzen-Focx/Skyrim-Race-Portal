@@ -1,0 +1,2 @@
+# GitHub Pages — no Jekyll processing
+# Required so paths like /data/mods.json are served as static files

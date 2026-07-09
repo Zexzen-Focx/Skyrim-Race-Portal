@@ -1,0 +1,77 @@
+{
+  "mods": [
+    {
+      "id": "follower-noire",
+      "order": 1,
+      "name": "Hyperdimension Neptunia - Noire",
+      "images": [
+        "images/follower-noire/NoireMaid.png",
+        "images/follower-noire/NoireBed.png",
+        "images/follower-noire/NoireSwimsuit.png",
+        "images/follower-noire/NoireRace.png",
+        "images/follower-noire/NoireLounge.png"
+      ],
+      "description": "*Tsundere girls best girls.*\n\nA **Hyperdimension Neptunia** follower mod featuring Noire.\n\n## Details\n\n- **Follower location:** Falkreath Jarl Longhouse\n- **Includes:** Equippable cat ears\n\n## Credits\n\nScreenshots by **Blacklist Actual**",
+      "downloads": [
+        {
+          "name": "Follower Download",
+          "description": "Main mod package with race and follower.",
+          "link": "https://drive.google.com/file/d/1bcje0waew-LyjqgRBzj7GYN1az_mlQro/view?usp=sharing"
+        }
+      ],
+      "passcode": "Noire",
+      "earlyAccess": false,
+      "wip": false
+    },
+    {
+      "id": "follower-miyu",
+      "order": 2,
+      "name": " Fate Kaleid - Miyu Edelfelt",
+      "images": [
+        "images/follower-miyu/MiyuBedroom.png",
+        "images/follower-miyu/MiyuFloor.png",
+        "images/follower-miyu/MiyuLounge.png",
+        "images/follower-miyu/MiyuPedals.png",
+        "images/follower-miyu/MiyuTea.png"
+      ],
+      "description": "Commissioned by **AK107bis**.\n\n## Details\n\n- **Location:** Winterhold Inn (The Frozen Hearth)\n\n## Racial Powers\n\nUnique racial abilities including a passive magicka improvement and her Noble Phantasm **Wish Upon a Star**. On activation (30 seconds):\n\n- Gain 250 Health\n- Gain 25 HP/s regen\n- Receive 50% less damage from both physical and magical sources\n- 50% reduced healing during the effect\n\n## Credits\n\nScreenshots by **Blacklist Actual**",
+      "downloads": [
+        {
+          "name": "Follower Download",
+          "description": "Main mod package with race and follower.",
+          "link": "https://drive.google.com/file/d/1KuXqbMsO52XH1vddxLZDXZiaSkm2j8Ml/view"
+        }
+      ],
+      "passcode": "Miyu",
+      "earlyAccess": true,
+      "wip": false
+    },
+    {
+      "id": "follower-nepgear",
+      "order": 3,
+      "name": "Hyperdimension Neptunia - Nepgear",
+      "images": [
+        "images/follower-nepgear/NepgearBook.png",
+        "images/follower-nepgear/NepgearBunny.png",
+        "images/follower-nepgear/NepgearIDK.png",
+        "images/follower-nepgear/NepgearPolice.png",
+        "images/follower-nepgear/NepgearSchool.png",
+        "images/follower-nepgear/NepgearSwimsuit.png"
+      ],
+      "description": "**Nepgear Race + Follower & Follower voice EN**\n\n> If the character is silent and there is no option to recruit when using custom voice, save and reload the game.\n\nCommissioned by **Moshiki**.\n\n## Details\n\n- **Location:** Riverwood Sleeping Giant Inn\n- **Combat style:** Spellsword\n\n## Features\n\n- Fully voiced follower\n- Different responses based on her current HP\n- Hairpin and necklace accessories\n- Beam Saber weapon (stats the same as Glass Sword)\n- With the follower voice: Nepgear can heal you if you fall under 50% HP, once every 60 seconds\n- ESL-tagged\n\n## Racial Power\n\nShe still uses **Berserker Rage** (Orc's power). May be updated in the future.\n\n## Healing in action\n\nSee the last slide in the gallery.\n\n## Credits\n\nPics (except the first one) taken by **Blacklist Actual**.",
+      "downloads": [
+        {
+          "name": "Follower Download",
+          "description": "Main mod package with Nepgear race and follower.",
+          "link": "https://drive.google.com/file/d/1ecdrGMK1Aoq9MQs3k-unEA5Sb2HzATIf/view?usp=sharing"
+        },
+        {
+          "name": "Follower EN Voice",
+          "description": "English voice pack add-on. Install after the main follower mod.",
+          "link": "https://drive.google.com/file/d/1mHqOU3tbal6tFDXqNFGn6T2L_8C2iao7/view?usp=sharing"
+        }
+      ],
+      "passcode": null
+    }
+  ]
+}
