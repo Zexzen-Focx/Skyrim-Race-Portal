@@ -15,11 +15,11 @@
       "downloads": [
         {
           "name": "Follower Download",
-          "description": "Main mod package with race and follower.",
-          "link": "https://drive.google.com/file/d/1bcje0waew-LyjqgRBzj7GYN1az_mlQro/view?usp=sharing"
+          "description": "Main mod package with race and follower. Access via Patreon.",
+          "link": "https://www.patreon.com/Zexzen/posts/hyperdimension-161627128"
         }
       ],
-      "passcode": "Noire",
+      "passcode": null,
       "earlyAccess": false,
       "wip": false
     },
@@ -30,7 +30,6 @@
       "images": [
         "images/follower-miyu/MiyuBedroom.png",
         "images/follower-miyu/MiyuFloor.png",
-        "images/follower-miyu/MiyuLounge.png",
         "images/follower-miyu/MiyuPedals.png",
         "images/follower-miyu/MiyuTea.png"
       ],
@@ -38,11 +37,11 @@
       "downloads": [
         {
           "name": "Follower Download",
-          "description": "Main mod package with race and follower.",
-          "link": "https://drive.google.com/file/d/1KuXqbMsO52XH1vddxLZDXZiaSkm2j8Ml/view"
+          "description": "Main mod package with race and follower. Access via Patreon.",
+          "link": "https://www.patreon.com/Zexzen/posts/fate-kaleid-miyu-162014754"
         }
       ],
-      "passcode": "Miyu",
+      "passcode": null,
       "earlyAccess": true,
       "wip": false
     },
@@ -63,15 +62,66 @@
         {
           "name": "Follower Download",
           "description": "Main mod package with Nepgear race and follower.",
-          "link": "https://drive.google.com/file/d/1ecdrGMK1Aoq9MQs3k-unEA5Sb2HzATIf/view?usp=sharing"
+          "link": "https://mega.nz/file/mlY3kTJL#9wptbwiN9LDtvmtuEShplYqaLHEGDK5IdKBd1Ce2xoI"
         },
         {
           "name": "Follower EN Voice",
           "description": "English voice pack add-on. Install after the main follower mod.",
-          "link": "https://drive.google.com/file/d/1mHqOU3tbal6tFDXqNFGn6T2L_8C2iao7/view?usp=sharing"
+          "link": "https://mega.nz/file/mgJxEZKI#JM7f6EPYjRWqyFmB7SOyp6bY62Ag7ewfQvVOaiPfMFw"
+        },
+        {
+          "name": "Patreon",
+          "description": "Patreon post for this release.",
+          "link": "https://www.patreon.com/Zexzen/posts/hyperdimension-164618961"
         }
       ],
-      "passcode": null
+      "passcode": null,
+      "earlyAccess": false,
+      "wip": false
+    },
+    {
+      "id": "follower-wise",
+      "order": 4,
+      "name": "Zenless Zone Zero - Wise",
+      "images": [
+        "images/follower-wise/wise1.png",
+        "images/follower-wise/wise2.png",
+        "images/follower-wise/wise3.png",
+        "images/follower-wise/wise4.png"
+      ],
+      "description": "Commissioned work.\n\nWe can use with some male companion once in a while.\n\nAdd the male protagonist **Wise** from **Zenless Zone Zero** into Skyrim.\n\n## Details\n\n- **Location:** Whiterun Drunken Huntsman\n\n## Credits\n\nScreenshots by **Blacklist Actual**",
+      "downloads": [
+        {
+          "name": "Follower Download",
+          "description": "Main mod package with race and follower. Access via Patreon.",
+          "link": "https://www.patreon.com/Zexzen/posts/zenless-zone-164605074"
+        }
+      ],
+      "passcode": null,
+      "earlyAccess": false,
+      "wip": false
+    },
+    {
+      "id": "follower-hiro",
+      "order": 5,
+      "name": "Gakuen Idolm@ster - Hiro Shinosawa",
+      "images": [
+        "images/follower-hiro/hiro1.png",
+        "images/follower-hiro/hiro2.png",
+        "images/follower-hiro/hiro3.png",
+        "images/follower-hiro/hiro4.png"
+      ],
+      "description": "Commissioned work.\n\nAdd **Hiro Shinosawa** from **Gakuen Idolm@ster** into Skyrim.\n\n## Details\n\n- **Location:** Solitude Bard's College\n\n## Credits\n\nScreenshots by **Blacklist Actual**",
+      "downloads": [
+        {
+          "name": "Follower Download",
+          "description": "Main mod package with race and follower.",
+          "link": "https://www.patreon.com/Zexzen/posts/gakuen-idolm-164611371"
+        }
+      ],
+      "passcode": null,
+      "earlyAccess": true,
+      "wip": false
     }
   ]
 }
